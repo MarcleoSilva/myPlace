@@ -1,7 +1,8 @@
 /* Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
 @import "tailwindcss";
 @layer theme, base, components, utilities, theme;
@@ -11,10 +12,12 @@
 
 /* colors and global parameters for tailwind*/
 :root {
-    --big-font: "Jaini Purva"
-
+    --big-font: "Jaini Purva";
+    --sillytext-font: "Margarine";
+    --pagenotfound-font: "DM Serif Text";
 }
 
 @theme{
-    --breakpoint-nav: 800px;
+    --breakpoint-bgdevice: 800px;
+    --breakpoint-smdevice: 600px;
 }
